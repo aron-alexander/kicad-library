@@ -45,3 +45,5 @@ fp-info-cache
 # Datasheets
 Datasheets/
 MechanicalDrawings/
+GoldenArduinoLibrary.kicad_sym
+GoldenArduinoLibrary.pretty/
