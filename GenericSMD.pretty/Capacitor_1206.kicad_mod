@@ -1,13 +1,13 @@
-(footprint "1206_Capacitor"
+(footprint "Capacitor_1206"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "C**"
-		(at 0 -0.5 0)
+		(at 0 -2.44 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "5d3a93a4-ad81-42d0-8ba3-28a0d1164cc0")
+		(uuid "869f9834-61eb-4e68-adc6-2e54b01d7425")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,8 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6fb21d48-1bc1-45fb-b39a-c1180c7f8c04")
+		(hide yes)
+		(uuid "f555c27a-0598-4b39-b7ae-a1aadff470bc")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "64d7ade9-bbc6-4193-a91e-e06f156f3b3e")
+		(uuid "0f19dc8d-784e-453d-a24e-878759969385")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "07f455b7-3724-4f53-811c-5c8d8cd3c4d7")
+		(uuid "fa5ad67e-2a3c-44a4-a00c-03b67a8a41d7")
 		(effects
 			(font
 				(size 1 1)
@@ -56,16 +57,30 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 2.53 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1a92a52b-ee14-4c44-aca6-3356707044cf")
+		(uuid "5b7648c7-b92e-43f3-9c26-859026fab8d1")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "1" smd rect
+		(at -1.8 0)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.08)
+		(uuid "2e15c67d-09b3-438e-af2a-fbac84de7d24")
+	)
+	(pad "2" smd rect
+		(at 1.8 0)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.08)
+		(uuid "71542345-e57d-4d7f-9bb4-e9b72ed6dbb6")
 	)
 	(embedded_fonts no)
 )
