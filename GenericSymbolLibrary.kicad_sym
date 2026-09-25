@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "GenericCapacitor"
+	(symbol "Capacitor"
 		(pin_numbers
 			(hide yes)
 		)
@@ -67,7 +67,7 @@
 				)
 			)
 		)
-		(symbol "GenericCapacitor_0_1"
+		(symbol "Capacitor_0_1"
 			(polyline
 				(pts
 					(xy -0.508 -0.762) (xy -0.508 0.762)
@@ -93,7 +93,7 @@
 				)
 			)
 		)
-		(symbol "GenericCapacitor_1_1"
+		(symbol "Capacitor_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.032)
@@ -133,7 +133,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericCrystal"
+	(symbol "Crystal"
 		(pin_numbers
 			(hide yes)
 		)
@@ -198,7 +198,7 @@
 				)
 			)
 		)
-		(symbol "GenericCrystal_0_1"
+		(symbol "Crystal_0_1"
 			(polyline
 				(pts
 					(xy -0.762 -0.762) (xy -0.762 0.762)
@@ -235,7 +235,7 @@
 				)
 			)
 		)
-		(symbol "GenericCrystal_1_1"
+		(symbol "Crystal_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.778)
@@ -275,7 +275,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericDiode"
+	(symbol "Diode"
 		(pin_numbers
 			(hide yes)
 		)
@@ -337,7 +337,7 @@
 				)
 			)
 		)
-		(symbol "GenericDiode_0_1"
+		(symbol "Diode_0_1"
 			(polyline
 				(pts
 					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
@@ -375,7 +375,7 @@
 				)
 			)
 		)
-		(symbol "GenericDiode_1_1"
+		(symbol "Diode_1_1"
 			(pin input line
 				(at -2.54 0 0)
 				(length 1.778)
@@ -415,7 +415,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericInductor"
+	(symbol "Inductor"
 		(pin_numbers
 			(hide yes)
 		)
@@ -480,7 +480,7 @@
 				)
 			)
 		)
-		(symbol "GenericInductor_0_1"
+		(symbol "Inductor_0_1"
 			(polyline
 				(pts
 					(xy -2.032 0) (xy -2.032 0.254)
@@ -590,7 +590,7 @@
 				)
 			)
 		)
-		(symbol "GenericInductor_1_1"
+		(symbol "Inductor_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 1.778)
@@ -630,7 +630,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericLED"
+	(symbol "LED"
 		(pin_numbers
 			(hide yes)
 		)
@@ -695,7 +695,7 @@
 				)
 			)
 		)
-		(symbol "GenericLED_0_1"
+		(symbol "LED_0_1"
 			(polyline
 				(pts
 					(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
@@ -757,7 +757,7 @@
 				)
 			)
 		)
-		(symbol "GenericLED_1_1"
+		(symbol "LED_1_1"
 			(pin input line
 				(at -2.54 0 0)
 				(length 1.778)
@@ -797,7 +797,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericNMOS"
+	(symbol "NMOS"
 		(pin_numbers
 			(hide yes)
 		)
@@ -862,7 +862,7 @@
 				)
 			)
 		)
-		(symbol "GenericNMOS_0_1"
+		(symbol "NMOS_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.508) (xy -1.27 -0.508)
@@ -924,7 +924,7 @@
 				)
 			)
 		)
-		(symbol "GenericNMOS_1_1"
+		(symbol "NMOS_1_1"
 			(pin passive line
 				(at 0 -2.54 90)
 				(length 1.905)
@@ -982,7 +982,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericNPN"
+	(symbol "NPN"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1047,7 +1047,7 @@
 				)
 			)
 		)
-		(symbol "GenericNPN_0_1"
+		(symbol "NPN_0_1"
 			(polyline
 				(pts
 					(xy -0.8642 0.7544) (xy -0.8642 -0.7696)
@@ -1097,7 +1097,7 @@
 				)
 			)
 		)
-		(symbol "GenericNPN_1_1"
+		(symbol "NPN_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.651)
@@ -1155,7 +1155,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericPMOS"
+	(symbol "PMOS"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1220,7 +1220,7 @@
 				)
 			)
 		)
-		(symbol "GenericPMOS_0_1"
+		(symbol "PMOS_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.508) (xy -1.27 -0.508)
@@ -1282,7 +1282,7 @@
 				)
 			)
 		)
-		(symbol "GenericPMOS_1_1"
+		(symbol "PMOS_1_1"
 			(pin passive line
 				(at 0 -2.54 90)
 				(length 1.905)
@@ -1340,7 +1340,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericPNP"
+	(symbol "PNP"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1405,7 +1405,7 @@
 				)
 			)
 		)
-		(symbol "GenericPNP_0_1"
+		(symbol "PNP_0_1"
 			(polyline
 				(pts
 					(xy -0.8642 0.7544) (xy -0.8642 -0.7696)
@@ -1455,7 +1455,7 @@
 				)
 			)
 		)
-		(symbol "GenericPNP_1_1"
+		(symbol "PNP_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.651)
@@ -1513,7 +1513,271 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericResistor"
+	(symbol "PowerJack"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 3.048 5.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 3.556 -19.558 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*Power_Jack*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PowerJack_1_0"
+			(polyline
+				(pts
+					(xy -5.588 3.81) (xy -1.27 3.81)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.588 1.27)
+				(mid -6.858 2.54)
+				(end -5.588 3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.27) (xy -4.572 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 -2.54) (xy -3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.81) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -5.588 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0.508) (xy 0 0.508)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy -3.048 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy -0.508 -1.27) (xy 0.508 -1.27) (xy 0 -2.54)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin power_in line
+				(at 2.54 2.54 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -2.54 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Resistor"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1575,7 +1839,7 @@
 				)
 			)
 		)
-		(symbol "GenericResistor_0_1"
+		(symbol "Resistor_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0) (xy -1.27 0.762) (xy -0.762 -0.762) (xy -0.254 0.762) (xy 0.254 -0.762) (xy 0.762 0.762)
@@ -1590,7 +1854,7 @@
 				)
 			)
 		)
-		(symbol "GenericResistor_1_1"
+		(symbol "Resistor_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.286)
@@ -1630,7 +1894,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GenericSwitch"
+	(symbol "Switch"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1695,7 +1959,7 @@
 				)
 			)
 		)
-		(symbol "GenericSwitch_0_1"
+		(symbol "Switch_0_1"
 			(circle
 				(center -0.762 0)
 				(radius 0.1472)
@@ -1731,7 +1995,7 @@
 				)
 			)
 		)
-		(symbol "GenericSwitch_1_1"
+		(symbol "Switch_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.6002)
