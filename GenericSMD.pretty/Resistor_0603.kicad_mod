@@ -1,4 +1,4 @@
-(footprint "0603_Resistor"
+(footprint "Resistor_0603"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,11 +7,11 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "840ceac9-7e92-4eac-a799-12b4e50e2377")
+		(uuid "2de3e303-4c14-4ea3-ad94-9a1a0cd94801")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -19,7 +19,8 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8443bfbd-7d08-4603-b71d-4af74cdf47db")
+		(hide yes)
+		(uuid "0741041b-f49f-4b1a-a059-60b04d87408a")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c1caf46a-a140-42be-8d39-86570f1e185e")
+		(uuid "08fcc30b-1612-4eb6-b9f2-4f1321a370aa")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3a0221d8-342f-4005-a229-aa5e1c95dfdd")
+		(uuid "728d7e0f-c591-4fad-ba3b-c28d9bbcc496")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +60,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "27601265-c366-4805-a675-1bbbb3c86cda")
+		(uuid "663b787d-b89e-424a-bb99-0b8b02d70615")
 		(effects
 			(font
 				(size 1 1)

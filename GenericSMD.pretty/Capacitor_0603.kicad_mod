@@ -4,14 +4,14 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "C**"
-		(at 0 -2.1 0)
+		(at 0.16 -2.26 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "3d1a6b50-80a7-4369-b2bb-1c2330b229fa")
+		(uuid "b8f030c1-4b84-477e-97ff-d9ca230e66f8")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "76f13225-188f-48e7-9ac8-c0573841945b")
+		(uuid "d2800080-2a2a-41da-88de-aed3b7a41e72")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9aa52b88-e260-44c2-96e0-fd6e2bb56b77")
+		(uuid "0a2fe477-4a41-4ce0-9fb1-0ec287c700f4")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d1ba2d30-d0d9-4635-a8ca-6c44383043e5")
+		(uuid "01e6630f-e032-483d-8692-d2df9771bdee")
 		(effects
 			(font
 				(size 1 1)
@@ -56,11 +56,31 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.19 -0.508)
+		(end 0.19 -0.508)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "250b8a90-2e2e-4fb7-8d28-0a2773d7f89c")
+	)
+	(fp_line
+		(start -0.19 0.508)
+		(end 0.19 0.508)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21163971-9245-4fcd-bea7-12405be0feda")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.325 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b0267da0-db92-4cce-a6d5-d9beb818daff")
+		(uuid "d2b818a7-f2e8-4740-9d74-49c087525e45")
 		(effects
 			(font
 				(size 1 1)
@@ -73,14 +93,14 @@
 		(size 1 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.08)
-		(uuid "c347c0f7-d963-484d-aaf9-aa9414c073df")
+		(uuid "991edb1c-7949-4198-b3f4-7ba00cdbcc04")
 	)
 	(pad "2" smd rect
 		(at 1 0)
 		(size 1 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.08)
-		(uuid "fb2fa1e9-70d9-4914-9ce9-5c40c476b5af")
+		(uuid "a63f75b7-6cb6-4d34-9a89-d9cb37f1ff81")
 	)
 	(embedded_fonts no)
 )

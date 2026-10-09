@@ -4,14 +4,14 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "C**"
-		(at 0 -3.1 0)
+		(at 0 -1.93 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "325d0b2c-3351-458e-bc61-9728fe7fa0f8")
+		(uuid "fb119e8e-d662-4144-95b6-3e339bf98ee5")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7f443b0b-fabb-442d-a705-f65278410888")
+		(uuid "567e8f28-00fa-4dfb-8e04-5931fc616d4f")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "431fdfdc-ee8a-4a36-b0f5-01f6cd045690")
+		(uuid "f4ad0f84-0dc4-471e-8a99-749d53c72c40")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "094bf4a2-f24f-492f-8659-f04bb9505d6c")
+		(uuid "ff833839-2e1e-4e53-b92e-7af786e8b8da")
 		(effects
 			(font
 				(size 1 1)
@@ -56,11 +56,31 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.2794 -0.7112)
+		(end 0.2794 -0.7112)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e27c670f-fd19-435a-8343-cb0331e10027")
+	)
+	(fp_line
+		(start -0.2794 0.7112)
+		(end 0.2794 0.7112)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08ddb022-aecb-4a07-91f8-6c71955ec694")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.575 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "88db66cd-9801-4e3c-af02-75a18c4da1c4")
+		(uuid "15540b0a-fea1-4220-8cf1-01574a517f06")
 		(effects
 			(font
 				(size 1 1)
@@ -73,14 +93,14 @@
 		(size 1.4 1.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.08)
-		(uuid "70fe9a0a-03c7-4a16-9f22-6199d185fe79")
+		(uuid "a65931fe-ce2e-4a23-9ae5-5d659f693708")
 	)
 	(pad "2" smd rect
 		(at 1.3 0)
 		(size 1.4 1.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.08)
-		(uuid "86222d59-c1b1-4203-b771-67ce05e54861")
+		(uuid "49bf423f-d410-4691-9b08-403b7382f618")
 	)
 	(embedded_fonts no)
 )
