@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "13ee4193-f26a-4198-bb9b-55c4e464e4e8")
+		(uuid "e3beeda4-5252-45ab-8cfd-afecd3c8143f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7bb09032-2924-4d7b-83bc-7202787cf9ad")
+		(uuid "b563f2a2-3fe7-4f1b-b53d-022e6fa5ca5b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a65648a5-89cd-49b2-bf92-443e09e55cea")
+		(uuid "9452368d-9688-4988-8a95-f01cfb4e19f4")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e29e18e2-2d2d-429a-a9ad-34582311bac6")
+		(uuid "8e622645-1a65-4aee-b3f4-83ff01d2e210")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "78c5ecff-468d-4d69-8394-08b280dd1abb")
+		(uuid "37537a2a-4dd1-42e1-8871-7a1cc1d0ade4")
 		(effects
 			(font
 				(size 1 1)
@@ -68,4 +68,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${AMACANIP_LIBRARY}/3DModels/Connectors/664_GSB416445CHR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
