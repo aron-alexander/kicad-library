@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Headers:2PinMale_100mil"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -89,7 +89,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Headers:3PinMale_100mil"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131,7 +131,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 0 0 0)
+			(at -1.016 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -150,7 +150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Headers:4PinMale_100mil"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -211,7 +211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Headers:5PinMale_100mil"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -272,7 +272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Headers:6PinMale_100mil"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -333,7 +333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Headers:7PinMale_100mil"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -394,7 +394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Headers:8PinMale_100mil"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -455,7 +455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Headers:9PinMale_100mil"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
