@@ -1,0 +1,202 @@
+(footprint "FDA59N30-Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "Q**"
+		(at 0 -6.46 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4070960f-e419-440c-9a28-e0d67e001ea3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FDA59N30"
+		(at 0 2.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd45556b-ea54-4183-a2db-dbabca1cc5ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fda59n30-d.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "273c483f-6715-4262-8977-654a6cf0a175")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d5818b6-db35-475c-9ce2-df00c2e88435")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8.2 -2.98)
+		(end -8.2 1.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b3a01c5-e427-44b2-8c0b-54066aa1bf35")
+	)
+	(fp_line
+		(start -8.2 -2.98)
+		(end 8.2 -2.98)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aca9e40b-a958-4b20-983d-c4019f3079a0")
+	)
+	(fp_line
+		(start -8.2 1.88)
+		(end -7.7 2.38)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f108b917-bf03-4a36-a73a-03b7825decb5")
+	)
+	(fp_line
+		(start -7.7 2.38)
+		(end 7.7 2.38)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49e19d15-6497-4db3-99bc-02842ec8e55a")
+	)
+	(fp_line
+		(start -2.72 -2.98)
+		(end -2.72 2.37)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58f34e65-8807-4880-ab51-143adf8766a5")
+	)
+	(fp_line
+		(start 7.7 2.38)
+		(end 8.2 1.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d6f93a1-57b1-4f8f-8617-be706f6a891b")
+	)
+	(fp_line
+		(start 8.2 1.88)
+		(end 8.2 -2.98)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf07329a-7c31-4c91-bdac-627a50f71e09")
+	)
+	(fp_rect
+		(start -6.9 -1.45)
+		(end 6.9 1.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "a6241060-dfdd-4936-82e1-3d58215fbfce")
+	)
+	(fp_rect
+		(start -8.35 -3.225)
+		(end 8.35 2.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ea69f009-397b-4369-a012-641a77290d08")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "51811a3e-e1f2-4937-be13-6efc43d3d03a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -5.45 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.2)
+		(uuid "303de89f-5063-4220-b7d1-42e8bf987348")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.2)
+		(uuid "1c83f100-3acc-4e10-9277-f97b9c4f4bf3")
+	)
+	(pad "3" thru_hole circle
+		(at 5.45 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.2)
+		(uuid "bec08f1c-ab10-4a74-ac93-5d5ed676fb16")
+	)
+	(embedded_fonts no)
+	(model "${AMACANIP_LIBRARY}/3DModels/MOSFETs/TO-3PN_20P10X16P20_ONS.step"
+		(offset
+			(xyz -5.45 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -7,7 +7,19 @@
 		(at -1.22 -1.97 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "20d0e2d3-8201-4ec8-8f16-f99d5e193ac9")
+		(uuid "2a68ddf3-d270-498e-9475-b3445db84450")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1N4148"
+		(at 0 1.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f3e603c-5209-4839-81c9-34dd5b6c9d76")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ad6eb09-fb20-459e-a9f0-40f277bc4f93")
+		(uuid "e1fd272a-0cd9-40b6-8e1c-160ceb5c2e74")
 		(effects
 			(font
 				(size 1 1)
@@ -33,19 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dcbe1c9a-6fa3-4505-a49f-b5e8d8da55e8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Value" "1N4148"
-		(at 0 1.93 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "bfc2f367-74cd-4ee1-be4f-cc9a39a79f32")
+		(uuid "76e40a12-12df-4dff-89c1-199f65b65f69")
 		(effects
 			(font
 				(size 1 1)
@@ -62,7 +62,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c794c65c-4e43-44eb-847b-4aefeb218549")
+		(uuid "d7f23207-7cf8-4659-b5cf-18bb1896ffac")
 	)
 	(fp_rect
 		(start -2.3 0.98)
@@ -73,7 +73,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "de3a0323-cc59-487c-898b-84de333eeb74")
+		(uuid "1e167feb-c098-4c60-8543-667b99c3b592")
 	)
 	(fp_rect
 		(start -4.245 -1.11)
@@ -84,7 +84,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "76e8c5a5-12ea-4715-aa07-b97333d6ba5c")
+		(uuid "bb3d2703-7f16-46c1-9f52-9a6c50e74c6b")
 	)
 	(fp_line
 		(start -1.36 -0.86)
@@ -94,7 +94,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "1a8d60ad-5225-49be-8ca6-5b2afde33d8a")
+		(uuid "72ab01b6-34ce-4fc3-ae40-e540176c9963")
 	)
 	(fp_rect
 		(start -1.9025 0.86)
@@ -105,13 +105,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e51c5f96-5a8d-45d0-a56e-49aae6433c7d")
+		(uuid "e81362e2-9d63-499c-b00e-1dbfb532a489")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "36243267-52be-46e2-9285-19588dea17cb")
+		(uuid "077cb449-79fe-485e-affa-8c1c41f08da8")
 		(effects
 			(font
 				(size 1 1)
@@ -127,7 +127,7 @@
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1968503937)
 		(solder_mask_margin 0.1)
-		(uuid "ad7e35aa-6789-4c8c-a423-ba809968d72b")
+		(uuid "d1b326f4-2e7e-44fe-b8aa-fe24bac74b3c")
 	)
 	(pad "2" thru_hole circle
 		(at 3.36 0)
@@ -136,7 +136,18 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
-		(uuid "5eea1a98-5a2e-4b60-b6a6-858924f9a7f2")
+		(uuid "97c4cf13-38a2-43e7-97e1-838a02c17eaf")
 	)
 	(embedded_fonts no)
+	(model "${AMACANIP_LIBRARY}/3DModels/Diodes/AFL-W2C8_9D.stp"
+		(offset
+			(xyz -4.45 1.0625 1.125)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -815,7 +815,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.778)
 				)
 			)
 		)
@@ -877,7 +877,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 1.016) (xy -0.762 -1.016)
+					(xy -0.508 1.1164) (xy -0.508 -1.1527)
 				)
 				(stroke
 					(width 0)
@@ -889,7 +889,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.7578 0.6447) (xy 0.0042 0.6447)
+					(xy -0.508 0.762) (xy 1.27 0.762)
 				)
 				(stroke
 					(width 0)
@@ -901,7 +901,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.7444 -0.6307) (xy -0.0035 -0.6308)
+					(xy -0.508 -0.762) (xy 1.27 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -913,21 +913,21 @@
 			)
 			(polyline
 				(pts
-					(xy 0.0027 -0.6252) (xy -0.2037 -0.4633) (xy -0.2009 -0.7787) (xy -0.0111 -0.6308)
+					(xy 1.27 -0.762) (xy 0.762 -0.508) (xy 0.762 -1.016) (xy 1.27 -0.762)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 		)
 		(symbol "NMOS_1_1"
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.905)
+				(at 1.27 -2.54 90)
+				(length 1.778)
 				(name "Source"
 					(effects
 						(font
@@ -962,8 +962,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 2.54 270)
-				(length 1.905)
+				(at 1.27 2.54 270)
+				(length 1.778)
 				(name "Drain"
 					(effects
 						(font

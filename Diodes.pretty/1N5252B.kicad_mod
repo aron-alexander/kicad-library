@@ -1,0 +1,153 @@
+(footprint "1N5252B"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "D**"
+		(at -1.22 -1.97 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "11002654-af97-40d8-a4bd-5fd5a12ed4e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1N5252B"
+		(at 0 1.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "266aa0fc-22b9-4d56-a76c-627ba7c92371")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9c9ed7b-58d5-4392-b749-84902995e980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20d1a351-b47e-4398-be7b-327036c334cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.397 -0.96)
+		(end -1.397 0.97)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86ee099c-9076-41e0-946a-4387b04b681c")
+	)
+	(fp_rect
+		(start -2.3 0.98)
+		(end 2.3 -0.98)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7eee896e-6447-4def-b7b8-d498327229ce")
+	)
+	(fp_rect
+		(start -4.245 -1.11)
+		(end 4.245 1.11)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "764de4b7-4755-4b76-88c3-2710c19d13d7")
+	)
+	(fp_line
+		(start -1.36 -0.86)
+		(end -1.9 -0.32)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "71dd3520-7d5a-4032-961f-e914f25535af")
+	)
+	(fp_rect
+		(start -1.9025 0.86)
+		(end 1.9025 -0.86)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ac61ff4e-0fef-4c95-a314-8a8e6fdc5ac1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8a5a80ee-962d-49d2-ad94-fe265493e1b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.36 0)
+		(size 1.27 1.27)
+		(drill 0.74)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(solder_mask_margin 0.1)
+		(uuid "63b73cb5-1839-4c92-8595-047eef80372a")
+	)
+	(pad "2" thru_hole circle
+		(at 3.36 0)
+		(size 1.27 1.27)
+		(drill 0.74)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "cd73df39-e4e0-4e06-9af0-9fcdaf0ca02a")
+	)
+	(embedded_fonts no)
+	(model "${AMACANIP_LIBRARY}/3DModels/Diodes/AFL-W2C8_9D.stp"
+		(offset
+			(xyz -4.45 1.0625 1.125)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
