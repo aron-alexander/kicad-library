@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "PushButtonSwitch"
+	(symbol "TL1105BF160Q"
 		(pin_numbers
 			(hide yes)
 		)
@@ -15,7 +15,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
-			(at 0 -1.778 0)
+			(at 0 4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24,18 +24,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Value" "TL1105BF160Q"
+			(at 0.254 -30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -45,8 +35,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Footprint" "Switches:TL1105BF160Q"
+			(at 4.826 -32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,8 +46,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL1105.pdf"
+			(at 32.258 -35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -67,22 +57,22 @@
 				)
 			)
 		)
-		(symbol "PushButtonSwitch_0_1"
+		(property "Description" "TL1105BF160Q"
+			(at 0.254 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TL1105BF160Q_0_1"
 			(polyline
 				(pts
-					(xy -1.27 1.016) (xy 1.27 1.016)
+					(xy -3.048 0) (xy -1.9175 0)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -1.27 0)
-				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -93,7 +83,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.778) (xy 0 1.016)
+					(xy -3.048 -1.27) (xy -3.048 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 1.27) (xy 1.524 1.27)
 				)
 				(stroke
 					(width 0)
@@ -104,8 +106,55 @@
 				)
 			)
 			(circle
-				(center 1.27 0)
-				(radius 0.254)
+				(center -1.524 0)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.032) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.524 0)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 1.27) (xy 3.048 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 0) (xy 1.898 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -115,10 +164,10 @@
 				)
 			)
 		)
-		(symbol "PushButtonSwitch_1_1"
+		(symbol "TL1105BF160Q_1_1"
 			(pin passive line
-				(at -2.54 0 0)
-				(length 1.016)
+				(at -5.08 1.27 0)
+				(length 2.032)
 				(name ""
 					(effects
 						(font
@@ -135,8 +184,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 180)
-				(length 1.016)
+				(at -5.08 -1.27 0)
+				(length 2.032)
 				(name ""
 					(effects
 						(font
@@ -145,6 +194,42 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 1.27 180)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -1.27 180)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

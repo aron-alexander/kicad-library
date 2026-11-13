@@ -1,0 +1,133 @@
+(footprint "ROX_THT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "R**"
+		(at -4.01 -3.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "08e3de11-5194-4800-967e-c21f90e2b950")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ROX_THT"
+		(at 0 2.77 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5162282b-f98e-455f-bee5-53d9356e7d96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc944bb9-3648-41c7-a45c-13876fb1672e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cce62e7-f592-4732-9093-6bb092566bc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5.55 -2.2)
+		(end 5.55 2.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "34210316-8123-4642-9374-f607578da32f")
+	)
+	(fp_rect
+		(start -5.25 -2)
+		(end 5.25 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d1920c9d-221a-4ebd-a26a-95b0ac890ba7")
+	)
+	(fp_rect
+		(start -5 -1.75)
+		(end 5 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "68397d23-75e6-4304-8e95-0ac1ba49b2c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "20e7da0b-7907-48ce-8e93-48cd317b371d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7 0)
+		(size 1.55 1.55)
+		(drill 0.9398)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.2)
+		(uuid "d751ac55-6deb-4940-9af1-7f7b9561ff63")
+	)
+	(pad "2" thru_hole circle
+		(at 7 0)
+		(size 1.55 1.55)
+		(drill 0.9398)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.2)
+		(uuid "42cf403a-b912-441b-aa7e-f3535063cbae")
+	)
+	(embedded_fonts no)
+	(model "${AMACANIP_LIBRARY}/3DModels/Resistors/ROX1S_TYCO_TYC.STEP"
+		(offset
+			(xyz 0 0 1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

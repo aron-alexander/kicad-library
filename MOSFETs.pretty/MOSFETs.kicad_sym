@@ -15,7 +15,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
-			(at -2.794 2.794 0)
+			(at -4.572 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25,12 +25,12 @@
 			)
 		)
 		(property "Value" "FDA59N30"
-			(at -6.858 -2.794 0)
+			(at -8.636 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -70,7 +70,7 @@
 		(symbol "FDA59N30_0_1"
 			(polyline
 				(pts
-					(xy -1.27 0.762) (xy -1.27 -0.762)
+					(xy -1.778 1.27) (xy -1.778 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -82,7 +82,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 1.016) (xy -0.762 0.508)
+					(xy -1.016 1.524) (xy -1.016 0.762)
 				)
 				(stroke
 					(width 0)
@@ -94,31 +94,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.762) (xy 0 0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 0.254) (xy -0.762 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 0) (xy -0.4103 0.2595) (xy -0.4103 -0.2485) (xy -0.762 0)
+					(xy -1.016 0) (xy -0.508 0.254) (xy -0.508 -0.254) (xy -1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -130,7 +106,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 -0.508) (xy -0.762 -1.016)
+					(xy -1.016 -0.762) (xy -1.016 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -142,7 +118,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 -0.762) (xy 0 -0.762)
+					(xy -1.0159 0.374) (xy -1.0159 -0.3754)
 				)
 				(stroke
 					(width 0)
@@ -154,7 +130,31 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 1.016 1.27) (xy 1.016 -1.27) (xy 0 -1.27)
+					(xy -1.0132 1.1304) (xy 0 1.1304)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.0104 -1.1416) (xy 0 -1.1416)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.032) (xy 1.27 2.032) (xy 1.27 -2.032) (xy 0 -2.032)
 				)
 				(stroke
 					(width 0)
@@ -178,7 +178,7 @@
 			)
 			(circle
 				(center 0 0)
-				(radius 2.1702)
+				(radius 2.8398)
 				(stroke
 					(width 0.0508)
 					(type default)
@@ -189,7 +189,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.254) (xy 1.27 0.254)
+					(xy 0.889 0.254) (xy 1.651 0.254)
 				)
 				(stroke
 					(width 0)
@@ -201,7 +201,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.0146 0.1437) (xy 0.7551 -0.208) (xy 1.2631 -0.208) (xy 1.0146 0.1437)
+					(xy 1.2686 0.1437) (xy 1.016 -0.508) (xy 1.524 -0.508) (xy 1.2686 0.1437)
 				)
 				(stroke
 					(width 0)
@@ -214,8 +214,8 @@
 		)
 		(symbol "FDA59N30_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -5.08 0 0)
+				(length 3.302)
 				(name "G"
 					(effects
 						(font
@@ -232,8 +232,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 3.81 270)
-				(length 3.048)
+				(at 0 5.08 270)
+				(length 3.937)
 				(name "D"
 					(effects
 						(font
@@ -250,8 +250,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
+				(at 0 -5.08 90)
+				(length 5.08)
 				(name "S"
 					(effects
 						(font

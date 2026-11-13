@@ -7,7 +7,7 @@
 		(at -0.79 -2.48 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "928d4cc8-51ea-4ead-a421-f5783a349475")
+		(uuid "b70ae842-caa9-457b-9f94-739972021420")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2289e3d9-1713-4778-a13e-04e187b9a7d2")
+		(uuid "811b1f08-462f-46c5-b3f5-c299b2999058")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d11714c5-1ef3-4586-a5dc-84e236c5f813")
+		(uuid "a34ea62a-f2b2-44f6-9050-9852d4a512f6")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d417b36d-12ba-45f0-a218-155f62e05d83")
+		(uuid "16d4bce6-e05c-465c-ab23-b225e5eb06ca")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7f9b5963-3ba0-49b3-99b0-9b9ed693440a")
+		(uuid "f719ed86-f2bc-4a4d-860c-889eb47cb67a")
 	)
 	(fp_line
 		(start -0.762 1.3208)
@@ -74,13 +74,35 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3aff3f41-4149-4f55-877b-2a56cd5a2777")
+		(uuid "bd41b19d-b870-4561-b059-02cdc5410c3a")
+	)
+	(fp_rect
+		(start -1.8 1.5)
+		(end 1.8 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "beb0cc17-9535-4c07-afcb-74401c52da26")
+	)
+	(fp_rect
+		(start -1.6 1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "220f28f4-9437-4d30-9a97-a9cbe378c4e9")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 3.38 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "661e5a1d-180d-49be-a47f-44516068147b")
+		(uuid "a804194d-c79f-4ae7-8adc-41f2c5854f00")
 		(effects
 			(font
 				(size 1 1)
@@ -93,14 +115,25 @@
 		(size 1.4 2.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.08)
-		(uuid "56e92ab6-c8fd-4fc8-a1db-2f3cc24ee90d")
+		(uuid "9a53caa3-c742-418c-9068-61f634218d34")
 	)
 	(pad "2" smd rect
 		(at 1.8 0)
 		(size 1.4 2.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.08)
-		(uuid "7514424d-f469-4660-ab14-396d7e7acab2")
+		(uuid "5919358c-0bd8-4b5a-b681-8edab90c4e6f")
 	)
 	(embedded_fonts no)
+	(model "${AMACANIP_LIBRARY}/3DModels/Capacitors/CAP_GRM32ED_MUR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
