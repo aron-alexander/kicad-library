@@ -4,22 +4,22 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "TP**"
-		(at 0 -0.5 0)
+		(at -0.1 -1.27 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "9747b929-f359-4a1b-9f27-dd296fb4d7f4")
+		(uuid "b3ce946a-acda-4957-8bce-aa255c34e279")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.8 0.8)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "S2761-46R"
+	(property "Value" "SMD-TP_S2761-46R"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "36774d37-7864-47b5-b1f2-3d29c0905b7c")
+		(uuid "e78ecf52-8998-48f3-a49d-61306117e7db")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://content.harwin.com/m/d630047163058eb1/original/DRG-02223-Technical-Drawing-Datasheet-S2761R-pdf.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d1508604-d220-4884-8c33-ea5d1dec0c73")
+		(uuid "f3a89d0d-1d75-4d9d-a118-265b8cecbeac")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" "Harwin PC Test Point"
+	(property "Description" "0603 Size SMD Test Point"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "795a2be6-d251-4f99-8ca0-f3da5f222df6")
+		(uuid "31621f06-ec8f-451f-8c13-e1f9d7cafd50")
 		(effects
 			(font
 				(size 1 1)
@@ -55,17 +55,56 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.0414 -0.635)
+		(end 1.0414 0.6096)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3db825c3-fa2e-4950-aab7-8dfd4d39efc7")
+	)
+	(fp_rect
+		(start -0.9144 -0.508)
+		(end 0.9144 0.508)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4751769b-f6fc-43e7-99c9-66cd61e84282")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "2d4d151b-77ab-4a20-b301-af3ac75dc181")
+		(uuid "db6d2822-5b0a-40b1-a072-63e7c0a12906")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.07)
+		(thermal_bridge_angle 45)
+		(uuid "c6a1c1f2-a423-4f1e-b1e8-af032cdd7b6c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.4 0)
+		(size 1.27 1.27)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.07)
+		(uuid "c423fea1-d368-4d1e-a997-c47deff9d6e3")
 	)
 	(embedded_fonts no)
 )

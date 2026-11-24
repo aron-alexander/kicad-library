@@ -7,7 +7,7 @@
 		(at -1.22 -1.97 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "2a68ddf3-d270-498e-9475-b3445db84450")
+		(uuid "48f444dc-e523-45e6-b008-c6738cf5a630")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1.93 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1f3e603c-5209-4839-81c9-34dd5b6c9d76")
+		(uuid "92b1b2d8-45ee-43d2-9996-a72ac559b3e1")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e1fd272a-0cd9-40b6-8e1c-160ceb5c2e74")
+		(uuid "cca7c7c1-3da9-43b8-b678-2e699e510529")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "76e40a12-12df-4dff-89c1-199f65b65f69")
+		(uuid "603b4203-f382-4bdb-8058-941fa10cb40f")
 		(effects
 			(font
 				(size 1 1)
@@ -62,7 +62,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d7f23207-7cf8-4659-b5cf-18bb1896ffac")
+		(uuid "0011eaae-ff36-4a29-9b42-8f6ba8bb9631")
 	)
 	(fp_rect
 		(start -2.3 0.98)
@@ -73,7 +73,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "1e167feb-c098-4c60-8543-667b99c3b592")
+		(uuid "53b5c050-6ead-4103-8ca5-1720dae19852")
 	)
 	(fp_rect
 		(start -4.245 -1.11)
@@ -84,7 +84,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "bb3d2703-7f16-46c1-9f52-9a6c50e74c6b")
+		(uuid "90420ff8-8906-49be-bc7b-6cf35893f179")
 	)
 	(fp_line
 		(start -1.36 -0.86)
@@ -94,7 +94,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "72ab01b6-34ce-4fc3-ae40-e540176c9963")
+		(uuid "5cc7c334-ee79-4071-a676-358cd9d96e5c")
 	)
 	(fp_rect
 		(start -1.9025 0.86)
@@ -105,13 +105,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e81362e2-9d63-499c-b00e-1dbfb532a489")
+		(uuid "18815ca9-ccb8-4328-9b12-f839b25b4d41")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "077cb449-79fe-485e-affa-8c1c41f08da8")
+		(uuid "287b9d93-9148-4f06-9731-f7bf10effe1b")
 		(effects
 			(font
 				(size 1 1)
@@ -121,22 +121,22 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at -3.36 0)
-		(size 1.27 1.27)
+		(size 1.524 1.524)
 		(drill 0.74)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1968503937)
 		(solder_mask_margin 0.1)
-		(uuid "d1b326f4-2e7e-44fe-b8aa-fe24bac74b3c")
+		(uuid "ddb1199f-141e-4362-84ce-56b1c2d82217")
 	)
 	(pad "2" thru_hole circle
 		(at 3.36 0)
-		(size 1.27 1.27)
+		(size 1.524 1.524)
 		(drill 0.74)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
-		(uuid "97c4cf13-38a2-43e7-97e1-838a02c17eaf")
+		(uuid "8a0be845-bfe9-4e53-a47a-f996b4ddba51")
 	)
 	(embedded_fonts no)
 	(model "${AMACANIP_LIBRARY}/3DModels/Diodes/AFL-W2C8_9D.stp"
