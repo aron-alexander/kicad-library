@@ -7,7 +7,7 @@
 		(at -4.01 -3.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "08e3de11-5194-4800-967e-c21f90e2b950")
+		(uuid "96529a26-bc29-4298-821d-ba209667f08a")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 2.77 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5162282b-f98e-455f-bee5-53d9356e7d96")
+		(uuid "20e653f2-4b0e-4aab-9bfb-6bc46b0446c4")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bc944bb9-3648-41c7-a45c-13876fb1672e")
+		(uuid "eea7be17-e95f-4264-afbd-aca446617c81")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0cce62e7-f592-4732-9093-6bb092566bc3")
+		(uuid "bb279e6c-7f3d-4316-9ab1-2d967a63ffa6")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "34210316-8123-4642-9374-f607578da32f")
+		(uuid "ff6cfcbb-b425-42f5-ba32-fab09249ab0d")
 	)
 	(fp_rect
 		(start -5.25 -2)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d1920c9d-221a-4ebd-a26a-95b0ac890ba7")
+		(uuid "31db69bd-b84c-47c1-95a6-594a32f7f004")
 	)
 	(fp_rect
 		(start -5 -1.75)
@@ -86,13 +86,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "68397d23-75e6-4304-8e95-0ac1ba49b2c7")
+		(uuid "f3c218a1-7b18-4a90-b7de-14080c0a38f6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "20e7da0b-7907-48ce-8e93-48cd317b371d")
+		(uuid "3a40f121-ffb3-43bd-9dd1-88465ed6fcb8")
 		(effects
 			(font
 				(size 1 1)
@@ -102,21 +102,21 @@
 	)
 	(pad "1" thru_hole circle
 		(at -7 0)
-		(size 1.55 1.55)
+		(size 2.032 2.032)
 		(drill 0.9398)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.2)
-		(uuid "d751ac55-6deb-4940-9af1-7f7b9561ff63")
+		(uuid "a58ad24e-5c81-4a77-b07e-3e5ac4e57296")
 	)
 	(pad "2" thru_hole circle
 		(at 7 0)
-		(size 1.55 1.55)
+		(size 2.032 2.032)
 		(drill 0.9398)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.2)
-		(uuid "42cf403a-b912-441b-aa7e-f3535063cbae")
+		(uuid "4468f7d7-b7e2-4c5c-bb6e-238571fe76a5")
 	)
 	(embedded_fonts no)
 	(model "${AMACANIP_LIBRARY}/3DModels/Resistors/ROX1S_TYCO_TYC.STEP"
